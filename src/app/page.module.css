@@ -231,23 +231,37 @@
 */
 
 .headerSection {
-    height: 70px; /* Default height */
+    height: 70px;
     display: flex;
-    align-items: center; /* Vertically center the content */
-    padding-left: 20px; /* Add padding to the left */
+    align-items: center;
+    background: linear-gradient(45deg, #883D8C, #EF2DCE)
 }
+
+.headerImage {
+    margin-left: -5px;
+}
+
 
 /* Media queries to adjust height on larger screens */
 @media (min-width: 768px) { /* Adjusting for medium screens and up */
     .headerSection {
-        height: 90px;
+        height: 80px;
+    }
+    .headerImage {
+        margin-left: -2.5px;
     }
 }
 
 @media (min-width: 1200px) { /* Adjusting for large screens and up */
     .headerSection {
-        height: 110px;
+        height: 90px;
+    }
+    .headerImage {
+        margin-left: 0;
     }
 }
+
+
+
 
 
