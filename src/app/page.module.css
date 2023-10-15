@@ -1,5 +1,5 @@
 .footerSection {
-    height: 65px;
+    height: 70px;
     background: linear-gradient(45deg, #883D8C, #EF2DCE);
     color: #fff;
     display: flex;
@@ -40,6 +40,17 @@
         margin-top: 95px;
     }
 
+}
+
+@media (min-width: 992px) {
+    .badge-container {
+        flex-direction: column; /* Change the flex direction to column */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .badge-container > div {
+        margin: 10px 0; /* Add vertical margin to separate the badges */
+    }
 }
 
 @media (min-width: 1200px) {

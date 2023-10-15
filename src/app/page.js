@@ -8,18 +8,22 @@ export default function Home() {
             {/* Safe im Netz section */}
             <div className="row mb-5">
                 <div className="col-lg-6 col-md-12 d-flex flex-column align-items-start justify-content-center text-left">
-                    <h2>Safe im Netz</h2>
-                    <p>Längerer Text hier. Längerer Text hier. Längerer Text hier. Längerer Text hier. Längerer Text hier. Längerer Text hier.</p>
-                    <div className="d-flex">
-                        <div style={{ display: "flex", alignItems: "center" }}>
-                            <Link href="http://localhost:3000">
-                                <Image src={"/google-play-badge.png"} alt={"Google Play Badge"} width={200} height={58} className="img-fluid" style={{ marginRight: "5px" }} />
-                            </Link>
-                        </div>
-                        <div style={{ display: "flex", alignItems: "center" }}>
-                            <Link href="http://localhost:3000">
-                                <Image src={"/app-store-badge.png"} alt={"App Store Badge"} width={177} height={58} className="img-fluid" style={{ marginLeft: "5px" }} />
-                            </Link>
+                    <div className={"row"}>
+                        <h2>Safe im Netz</h2>
+                        <p>Längerer Text hier. Längerer Text hier. Längerer Text hier. Längerer Text hier. Längerer Text hier. Längerer Text hier.</p>
+                    </div>
+                    <div className={"row"} style={{width: "100%"}}>
+                        <div className="d-flex">
+                            <div style={{ display: "flex", alignItems: "center" }}>
+                                <Link href="http://localhost:3000">
+                                    <Image src={"/google-play-badge.png"} alt={"Google Play Badge"} width={200} height={58} className="img-fluid" style={{ marginRight: "5px" }} />
+                                </Link>
+                            </div>
+                            <div style={{ display: "flex", alignItems: "center" }}>
+                                <Link href="http://localhost:3000">
+                                    <Image src={"/app-store-badge.png"} alt={"App Store Badge"} width={177} height={58} className="img-fluid" style={{ marginLeft: "5px" }} />
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -36,8 +40,8 @@ export default function Home() {
                     <div className="row mt-3">
                         <div className="d-flex align-items-start">
                             <span className="badge bg-primary me-2" style={{ background: 'linear-gradient(45deg, #883D8C, #EF2DCE)', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>1</span>
-                            <div>
-                                <h4>App herunterladen</h4>
+                            <div style={{paddingLeft: "10px"}}>
+                                <h4 style={{ lineHeight: '40px' }}>App herunterladen</h4>
                                 <p>Längerer Text hier. Längerer Text hier.</p>
                             </div>
                         </div>
@@ -45,8 +49,8 @@ export default function Home() {
                     <div className="row mt-3">
                         <div className="d-flex align-items-start">
                             <span className="badge bg-primary me-2" style={{ background: 'linear-gradient(45deg, #883D8C, #EF2DCE)', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>2</span>
-                            <div>
-                                <h4>Dienste auswählen</h4>
+                            <div style={{paddingLeft: "10px"}}>
+                                <h4 style={{ lineHeight: '40px' }}>Dienste auswählen</h4>
                                 <p>Längerer Text hier. Längerer Text hier.</p>
                             </div>
                         </div>
@@ -54,8 +58,8 @@ export default function Home() {
                     <div className="row mt-3">
                         <div className="d-flex align-items-start">
                             <span className="badge bg-primary me-2" style={{ background: 'linear-gradient(45deg, #883D8C, #EF2DCE)', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>3</span>
-                            <div>
-                                <h4>Tasks befolgen</h4>
+                            <div style={{paddingLeft: "10px"}}>
+                                <h4 style={{ lineHeight: '40px' }}>Tasks befolgen</h4>
                                 <p>Längerer Text hier. Längerer Text hier.</p>
                             </div>
                         </div>
