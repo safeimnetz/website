@@ -3,7 +3,7 @@
 }
 
 .footerSection {
-    height: 70px;
+    height: 65px;
     background: linear-gradient(45deg, #883D8C, #EF2DCE);
     color: #fff;
     display: flex;
@@ -13,33 +13,43 @@
     text-align: center;
 }
 
+.marginBody {
+    margin-top: 85px;
+}
+
 .link {
-    color: #fff; /* Replace with your desired color */
+    color: rgba(255, 255, 255, 0.5);
     text-decoration: none; /* Optional: Remove underline */
 }
 
 .link:hover {
-    text-decoration: underline; /* Add an underline on hover */
+    color: rgba(255, 255, 255, 0.75);
+    /*text-decoration: underline; */
 }
 
+.nav-link:hover {
+    text-decoration: underline
+}
 
-
-/* Media queries to adjust height on larger screens */
-@media (min-width: 768px) { /* Adjusting for medium screens and up */
-    .headerSection {
-        height: 80px;
-    }
+@media (min-width: 768px) {
     .headerImage {
         margin-left: -10px;
+        width: 210px;
+        height: 60px;
+    }
+    .marginBody {
+        margin-top: 95px;
     }
 }
 
-@media (min-width: 1200px) { /* Adjusting for large screens and up */
-    .headerSection {
-        height: 90px;
-    }
+@media (min-width: 1200px) {
     .headerImage {
         margin-left: -7.5px;
+        width: 245px;
+        height: 70px;
+    }
+    .marginBody {
+        margin-top: 105px;
     }
 }
 
