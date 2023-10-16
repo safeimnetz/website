@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from 'next/image';
 import Link from "next/link";
+import styles from './page.module.css';
 
 export default function Home() {
     return (
@@ -13,7 +13,7 @@ export default function Home() {
                         <p>Die kostenlose und quelloffene App für mehr Sicherheit und Privatsphäre im Internet.</p>
                         <p>Eine Initiative der HTL Kaindorf.</p>
                     </div>
-                    <div className={"row"} style={{width: "100%"}}>
+                    <div className={"row"} style={{ width: "100%" }}>
                         <div className={styles.badges}>
                             <div style={{ display: "flex", alignItems: "center" }}>
                                 <Link href="http://localhost:3000">
@@ -28,8 +28,8 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-6 col-md-12" style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
-                    <Image src="/deviceframes.png" alt="App Device Frames" width={925} height={918} className="img-fluid"/>
+                <div className="col-lg-6 col-md-12" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+                    <Image src="/deviceframes.png" alt="App Device Frames" width={925} height={918} className="img-fluid" />
                 </div>
             </div>
 
@@ -42,11 +42,11 @@ export default function Home() {
                     <div className="row mt-3" >
                         <div className="d-flex align-items-start">
                             <span className="badge bg-primary me-2" style={{ background: 'linear-gradient(45deg, #883D8C, #EF2DCE)', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>1</span>
-                            <div style={{paddingLeft: "10px"}}>
+                            <div style={{ paddingLeft: "10px" }}>
                                 <h4 style={{ lineHeight: '40px', marginBottom: "0" }}>App herunterladen</h4>
-                                <p style={{marginBottom: "0"}}>
+                                <p style={{ marginBottom: "0" }}>
                                     Lade &quot;Safe im Netz&quot;{" "}
-                                    <Link href={"https://safeimnetz.at/download"}>hier</Link>
+                                    <Link href={"/download"}>hier</Link>
                                     {" "}kostenlos herunter.</p>
                             </div>
                         </div>
@@ -54,23 +54,23 @@ export default function Home() {
                     <div className="row mt-3">
                         <div className="d-flex align-items-start">
                             <span className="badge bg-primary me-2" style={{ background: 'linear-gradient(45deg, #883D8C, #EF2DCE)', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>2</span>
-                            <div style={{paddingLeft: "10px"}}>
+                            <div style={{ paddingLeft: "10px" }}>
                                 <h4 style={{ lineHeight: '40px', marginBottom: "0" }}>Dienste auswählen</h4>
-                                <p style={{marginBottom: "0"}}>Wähle alle Apps und Dienste aus, die du benutzt.</p>
+                                <p style={{ marginBottom: "0" }}>Wähle alle Apps und Dienste aus, die du benutzt.</p>
                             </div>
                         </div>
                     </div>
                     <div className="row mt-3">
                         <div className="d-flex align-items-start">
                             <span className="badge bg-primary me-2" style={{ background: 'linear-gradient(45deg, #883D8C, #EF2DCE)', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>3</span>
-                            <div style={{paddingLeft: "10px"}}>
+                            <div style={{ paddingLeft: "10px" }}>
                                 <h4 style={{ lineHeight: '40px', marginBottom: "0" }}>Tasks befolgen</h4>
-                                <p style={{marginBottom: "0"}}>Bekomme hilfreiche Tipps, wie du deine Cyber-Sicherheit verbessern kannst.</p>
+                                <p style={{ marginBottom: "0" }}>Bekomme hilfreiche Tipps, wie du deine Cyber-Sicherheit verbessern kannst.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-6 col-md-12" style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+                <div className="col-lg-6 col-md-12" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                     <Image src="/deviceframes_2.png" alt="App Screenshot 3" width={905} height={918} className={"img-fluid"} />
                 </div>
             </div>
