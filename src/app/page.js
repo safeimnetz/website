@@ -16,12 +16,12 @@ export default function Home() {
                     <div className={"row"} style={{ width: "100%" }}>
                         <div className={styles.badges}>
                             <div style={{ display: "flex", alignItems: "center" }}>
-                                <Link href="http://localhost:3000">
+                                <Link href="https://play.google.com/store/apps/details?id=at.safeimnetz.app" target='_blank'>
                                     <Image src={"/google-play-badge.png"} alt={"Google Play Badge"} width={200} height={58} className="img-fluid" style={{ marginRight: "5px" }} />
                                 </Link>
                             </div>
                             <div style={{ display: "flex", alignItems: "center" }}>
-                                <Link href="http://localhost:3000">
+                                <Link href="http://localhost:3000" target='_blank'>
                                     <Image src={"/app-store-badge.png"} alt={"App Store Badge"} width={177} height={58} className="img-fluid" style={{ marginLeft: "5px" }} />
                                 </Link>
                             </div>
@@ -45,9 +45,7 @@ export default function Home() {
                             <div style={{ paddingLeft: "10px" }}>
                                 <h4 style={{ lineHeight: '40px', marginBottom: "0" }}>App herunterladen</h4>
                                 <p style={{ marginBottom: "0" }}>
-                                    Lade &quot;Safe im Netz&quot;{" "}
-                                    <Link href={"/download"}>hier</Link>
-                                    {" "}kostenlos herunter.</p>
+                                    Lade &quot;Safe im Netz&quot; kostenlos herunter.</p>
                             </div>
                         </div>
                     </div>
