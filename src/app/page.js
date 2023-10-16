@@ -47,9 +47,9 @@ export default function Home() {
                                 <div style={{paddingLeft: "10px"}}>
                                     <h4 style={{ lineHeight: '40px', marginBottom: "0" }}>App herunterladen</h4>
                                     <p style={{marginBottom: "0"}}>
-                                        Lade &quot;Safe im Netz&quot; kostenlos{" "}
+                                        Lade &quot;Safe im Netz&quot;{" "}
                                         <Link href={"https://safeimnetz.at/download"}>hier</Link>
-                                        {" "}herunter.</p>
+                                        {" "}kostenlos herunter.</p>
                                 </div>
                             </div>
                         </div>
