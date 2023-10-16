@@ -6,7 +6,6 @@ export default function Header() {
     return (
         <nav className="navbar navbar-expand-lg fixed-top navbar-dark" style={{ background: "linear-gradient(45deg, #883D8C, #EF2DCE)"}}>
             <div className="container-fluid">
-
                 {/* Logo */}
                 <Link href="http://localhost:3000" className="navbar-brand">
                     <Image src={"/Text_White.png"} alt={"Logo"} width={245} height={70} className={styles.headerImage}/>
@@ -31,7 +30,6 @@ export default function Header() {
                         </li>
                     </ul>
                 </div>
-
             </div>
         </nav>
     )

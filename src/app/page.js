@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function Home() {
     return (
         <main>
-
             {/* Safe im Netz section */}
             <div className="row mb-5">
                 <div className="col-lg-6 col-md-12 d-flex flex-column align-items-start justify-content-center text-left">
@@ -40,44 +39,41 @@ export default function Home() {
             {/* So gehts section */}
             <div className="row mb-5">
                 <div className="col-lg-6 col-md-12 d-flex flex-column align-items-start justify-content-center text-left">
-
-                        <div className="row mt-3" >
-                            <div className="d-flex align-items-start">
-                                <span className="badge bg-primary me-2" style={{ background: 'linear-gradient(45deg, #883D8C, #EF2DCE)', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>1</span>
-                                <div style={{paddingLeft: "10px"}}>
-                                    <h4 style={{ lineHeight: '40px', marginBottom: "0" }}>App herunterladen</h4>
-                                    <p style={{marginBottom: "0"}}>
-                                        Lade &quot;Safe im Netz&quot;{" "}
-                                        <Link href={"https://safeimnetz.at/download"}>hier</Link>
-                                        {" "}kostenlos herunter.</p>
-                                </div>
+                    <div className="row mt-3" >
+                        <div className="d-flex align-items-start">
+                            <span className="badge bg-primary me-2" style={{ background: 'linear-gradient(45deg, #883D8C, #EF2DCE)', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>1</span>
+                            <div style={{paddingLeft: "10px"}}>
+                                <h4 style={{ lineHeight: '40px', marginBottom: "0" }}>App herunterladen</h4>
+                                <p style={{marginBottom: "0"}}>
+                                    Lade &quot;Safe im Netz&quot;{" "}
+                                    <Link href={"https://safeimnetz.at/download"}>hier</Link>
+                                    {" "}kostenlos herunter.</p>
                             </div>
                         </div>
-                        <div className="row mt-3">
-                            <div className="d-flex align-items-start">
-                                <span className="badge bg-primary me-2" style={{ background: 'linear-gradient(45deg, #883D8C, #EF2DCE)', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>2</span>
-                                <div style={{paddingLeft: "10px"}}>
-                                    <h4 style={{ lineHeight: '40px', marginBottom: "0" }}>Dienste auswählen</h4>
-                                    <p style={{marginBottom: "0"}}>Wähle alle Apps und Dienste aus, die du benutzt.</p>
-                                </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="d-flex align-items-start">
+                            <span className="badge bg-primary me-2" style={{ background: 'linear-gradient(45deg, #883D8C, #EF2DCE)', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>2</span>
+                            <div style={{paddingLeft: "10px"}}>
+                                <h4 style={{ lineHeight: '40px', marginBottom: "0" }}>Dienste auswählen</h4>
+                                <p style={{marginBottom: "0"}}>Wähle alle Apps und Dienste aus, die du benutzt.</p>
                             </div>
                         </div>
-                        <div className="row mt-3">
-                            <div className="d-flex align-items-start">
-                                <span className="badge bg-primary me-2" style={{ background: 'linear-gradient(45deg, #883D8C, #EF2DCE)', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>3</span>
-                                <div style={{paddingLeft: "10px"}}>
-                                    <h4 style={{ lineHeight: '40px', marginBottom: "0" }}>Tasks befolgen</h4>
-                                    <p style={{marginBottom: "0"}}>Bekomme hilfreiche Tipps, wie du deine Cyber-Sicherheit verbessern kannst.</p>
-                                </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="d-flex align-items-start">
+                            <span className="badge bg-primary me-2" style={{ background: 'linear-gradient(45deg, #883D8C, #EF2DCE)', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>3</span>
+                            <div style={{paddingLeft: "10px"}}>
+                                <h4 style={{ lineHeight: '40px', marginBottom: "0" }}>Tasks befolgen</h4>
+                                <p style={{marginBottom: "0"}}>Bekomme hilfreiche Tipps, wie du deine Cyber-Sicherheit verbessern kannst.</p>
                             </div>
                         </div>
-
+                    </div>
                 </div>
                 <div className="col-lg-6 col-md-12" style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                     <Image src="/deviceframes_2.png" alt="App Screenshot 3" width={905} height={918} className={"img-fluid"} />
                 </div>
             </div>
-
         </main>
     )
 }
