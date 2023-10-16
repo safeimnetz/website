@@ -8,11 +8,11 @@ export default function Footer() {
                 <div className={"container-fluid"}>
                     <div className={"row"} >
                         <p style={{ marginBottom: "0" }}>
-                            <Link href={"http://localhost:3000/imprint"} className={styles.link}>Impressum</Link>
+                            <Link href={"/imprint"} className={styles.link}>Impressum</Link>
                             <span style={{ color: "rgba(255, 255, 255, 0.75)" }}> &middot; </span>
-                            <Link href={"http://localhost:3000/terms"} className={styles.link}>Nutzungsbedingungen</Link>
+                            <Link href={"/terms"} className={styles.link}>Nutzungsbedingungen</Link>
                             <span style={{ color: "rgba(255, 255, 255, 0.75)" }}> &middot; </span>
-                            <Link href={"http://localhost:3000/privacy"} className={styles.link}>Datenschutzerklärung</Link>
+                            <Link href={"/privacy"} className={styles.link}>Datenschutzerklärung</Link>
                         </p>
                     </div>
                     <div className={"row"}>
