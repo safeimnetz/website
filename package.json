@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "echo safeimnetz.at > ./build/CNAME && touch ./build/.nojekyll && gh-pages -d build"
+    "deploy": "echo safeimnetz.at > ./build/CNAME && touch ./build/.nojekyll && gh-pages -d build --dotfiles true"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
