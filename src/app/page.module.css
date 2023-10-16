@@ -12,62 +12,14 @@
 
 .link {
     color: rgba(255, 255, 255, 0.5);
-    text-decoration: none; /* Optional: Remove underline */
+    text-decoration: none;
 }
 
 .link:hover {
     color: rgba(255, 255, 255, 0.75);
-    /*text-decoration: underline; */
 }
 
 .headerImage {
-    margin-left: -12.5px;
-}
-
-.marginBody {
-    margin-top: 85px;
-}
-
-
-
-@media (min-width: 768px) {
-    .headerImage {
-        margin-left: -10px;
-        width: 210px;
-        height: 60px;
-    }
-    .marginBody {
-        margin-top: 95px;
-    }
-
-}
-
-@media (min-width: 992px) {
-    .badge-container {
-        flex-direction: column; /* Change the flex direction to column */
-        align-items: center; /* Center items horizontally */
-    }
-
-    .badge-container > div {
-        margin: 10px 0; /* Add vertical margin to separate the badges */
-    }
-}
-
-@media (min-width: 1200px) {
-    .headerImage {
-        margin-left: -7.5px;
-        width: 245px;
-        height: 70px;
-    }
-    .marginBody {
-        margin-top: 105px;
-    }
-
-}
-
-
-
-/*.headerImage {
     margin-left: -7.5px;
     width: 245px;
     height: 70px;
@@ -75,14 +27,16 @@
 
 .marginBody {
     margin-top: 105px;
+
 }
 
-.mainImage {
-    width: 570px;
-    height: 564px;
+.badges {
+    display: flex;
+    justify-content: flex-start;
 }
 
-@media (max-width: 1199px) {
+
+@media (max-width: 992px) {
     .headerImage {
         margin-left: -10px;
         width: 210px;
@@ -91,24 +45,25 @@
     .marginBody {
         margin-top: 95px;
     }
-    .mainImage {
-        width: 445px;
-        height: 441px;
+    .badges {
+        justify-content: center;
     }
 }
+
 
 @media (max-width: 767px) {
     .headerImage {
         margin-left: -12.5px;
+        width: 175px;
+        height: 50px;
     }
     .marginBody {
         margin-top: 85px;
     }
-    .mainImage {
-        width: 320px;
-        height: 317px;
-    }
-}*/
+
+}
+
+
 
 
 

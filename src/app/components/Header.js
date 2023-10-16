@@ -6,8 +6,10 @@ export default function Header() {
     return (
         <nav className="navbar navbar-expand-lg fixed-top navbar-dark" style={{ background: "linear-gradient(45deg, #883D8C, #EF2DCE)"}}>
             <div className="container-fluid">
+
+                {/* Logo */}
                 <Link href="http://localhost:3000" className="navbar-brand">
-                    <Image src={"/Text_White.png"} alt={"Logo"} width={175} height={50} className={styles.headerImage}/>
+                    <Image src={"/Text_White.png"} alt={"Logo"} width={245} height={70} className={styles.headerImage}/>
                 </Link>
 
                 {/* Toggler for mobile view */}
@@ -15,8 +17,9 @@ export default function Header() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
+                {/* Navbar */}
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ms-auto"> {/* ms-auto pushes items to the right */}
+                    <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
                             <Link href="http://localhost:3000/imprint" className="nav-link">Impressum</Link>
                         </li>
@@ -28,6 +31,7 @@ export default function Header() {
                         </li>
                     </ul>
                 </div>
+
             </div>
         </nav>
     )

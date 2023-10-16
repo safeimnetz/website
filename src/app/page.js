@@ -5,6 +5,7 @@ import Link from "next/link";
 export default function Home() {
     return (
         <main>
+
             {/* Safe im Netz section */}
             <div className="row mb-5">
                 <div className="col-lg-6 col-md-12 d-flex flex-column align-items-start justify-content-center text-left">
@@ -13,7 +14,7 @@ export default function Home() {
                         <p>Längerer Text hier. Längerer Text hier. Längerer Text hier. Längerer Text hier. Längerer Text hier. Längerer Text hier.</p>
                     </div>
                     <div className={"row"} style={{width: "100%"}}>
-                        <div className="d-flex">
+                        <div className={styles.badges}>
                             <div style={{ display: "flex", alignItems: "center" }}>
                                 <Link href="http://localhost:3000">
                                     <Image src={"/google-play-badge.png"} alt={"Google Play Badge"} width={200} height={58} className="img-fluid" style={{ marginRight: "5px" }} />
@@ -32,6 +33,7 @@ export default function Home() {
                 </div>
             </div>
 
+            {/* Divider */}
             <div className="border-top my-4"></div>
 
             {/* So gehts section */}
@@ -69,6 +71,7 @@ export default function Home() {
                     <Image src="/deviceframes_2.png" alt="App Screenshot 3" width={905} height={918} className={"img-fluid"} />
                 </div>
             </div>
+
         </main>
     )
 }

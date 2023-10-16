@@ -6,8 +6,6 @@ export default function Footer(){
         <footer className={"footer"} style={{width: "100%"}}>
             <div className={styles.footerSection}>
                 <div className={"container-fluid"}>
-                    {/*style={{height: "70px", background: "linear-gradient(45deg, #883D8C, #EF2DCE)", color: "#fff", display: "flex",
-                                    flexDirection: "column", alignItems: "center",justifyContent: "center", textAlign: "center"}}*/}
                     <div className={"row"} >
                         <p style={{marginBottom: "0"}}>
                             <Link href={"http://localhost:3000/imprint"} className={styles.link}>Impressum</Link>
