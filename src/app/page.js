@@ -21,7 +21,7 @@ export default function Home() {
                                 </Link>
                             </div>
                             <div style={{ display: "flex", alignItems: "center" }}>
-                                <Link href="http://localhost:3000" target='_blank'>
+                                <Link href="https://apps.apple.com/at/app/safe-im-netz/id6468965798" target='_blank'>
                                     <Image src={"/app-store-badge.png"} alt={"App Store Badge"} width={177} height={58} className="img-fluid" style={{ marginLeft: "5px" }} />
                                 </Link>
                             </div>
